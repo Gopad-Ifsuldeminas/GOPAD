@@ -140,6 +140,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+
+
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -10874,4 +10876,13 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
+}
+
+.hero-section {
+  box-shadow: inset 0 0 100px rgba(0,0,0, 0.5);
+}
+
+.header {
+  box-sizing: border-box; /* Faz a mágica acontecer */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
