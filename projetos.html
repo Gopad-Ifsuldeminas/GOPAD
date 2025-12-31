@@ -1,187 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Gopad</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/logos/SIMPLIFICADA/Prancheta 4 - IMG .png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/logos/SIMPLIFICADA/Prancheta 4 - IMG .png"
+    />
+    <!-- Font Inter Local -->
+    <link rel="stylesheet" href="assets/fonts/inter/inter.css" />
     <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-</head>
-<body class="d-flex flex-column">
+  </head>
+  <body class="d-flex flex-column">
     <main class="flex-shrink-0">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="index.html">Gopad</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">Equipe</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="projetos.html">Projetos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="publicacoes.html">Publicações</a></li>
-                        <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-       <!-- Header-->
-<header class="bg-dark py-3">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
+      <!-- Navigation-->
+      <nav class="header navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/logos/SIMPLIFICADA/Prancheta 4 - NOME.png" alt="Gopad" height="20" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Equipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="projetos.html">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="publicacoes.html">Publicações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header-->
+      <header class="hero-section bg-dark py-3">
+        <div class="container px-5">
+          <div class="row gx-5 align-items-center">
             <!-- Logo -->
             <div class="col-md-4 text-center text-md-start">
-                <img class="img-fluid rounded-3 my-3" src="./assets/logos/SIMPLIFICADA/Prancheta 4.png" alt="Logo" />
+              <img
+                class="img-fluid rounded-3 my-3"
+                src="./assets/logos/SIMPLIFICADA/Prancheta 4.png"
+                alt="Logo"
+              />
             </div>
             <!-- Texto -->
             <div class="col-md-8">
-                <div class="text-center text-md-start">
-                    <h1 class="display-6 fw-bolder text-white mb-2">
-                        Grupo de Estudos em Organização, Processamento e Análise de Dados
-                    </h1>
-                    <p class="lead fw-normal text-white-50 mb-4">
-                        Explore os nossos projetos e publicações mais recentes.
-                    </p>
-                </div>
+              <div class="text-center text-md-start">
+                <h1 class="display-6 fw-bolder text-white mb-2">
+                  Grupo de Estudos em Organização, Processamento e Análise de
+                  Dados
+                </h1>
+                <p class="lead fw-normal text-white-50 mb-4">
+                  Explore os nossos projetos e publicações mais recentes.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</header>
-        
-        <!-- Project section-->
-        <section class="py-5 bg-light" id="projects">
-            <div class="container px-5 my-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-12">
-                        <h2 class="fw-bolder">Projetos de Pesquisa</h2>
-                        <hr class="mb-5">
-                        <div class="mb-5">
-                            <h3 class="fw-bold">Heurísticas de Usabilidade Aplicadas a Avaliação de uma Arquitetura Computacional para Adaptação de Questões para Estudantes Neurodivergentes (2024 - Atual)</h3>
-                            <p><strong>Financiamento:</strong>  CNPq - Chamada Nº 116/2024 - PIBIC-EM CNPq/IFSULDEMINAS</p>
-                            <p><strong>Resumo:</strong> A inclusão de estudantes com necessidades específicas representa um desafio constante na educação, exigindo um compromisso contínuo e abrangente para promover 
-                                práticas inclusivas e garantir o pleno desenvolvimento de cada indivíduo. A adaptação de materiais didáticos, como questões de avaliação, é essencial para garantir que todos os alunos 
-                                possam participar ativamente do processo de aprendizagem. Dentre as soluções existentes para adaptação de questões destaca-se a Mind Bridge, ferramenta que utiliza mecanismos de 
-                                Inteligência Artificial Generativa para sugerir diferentes versões de questões adaptadas. Com base nisso, este trabalho tem como objetivo a análise, desenvolvimento e implantação 
-                                de uma interface inteligente para adaptação de questões fundamentadas na plataforma Mind Bridge. A proposta será validade a partir da aplicação de diferentes heurísticas de usabilidade 
-                                disponíveis na literatura.
-                            </p>
-                        </div>
+      </header>
 
-                        <div class="mb-5">
-                            <h3 class="fw-bold">Ferramenta automatizada para adaptação de questões para estudantes neurodivergentes fundamentada em recursos de Inteligência Artificial Generativa (2024 - Atual)</h3>
-                            <p><strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº 19/2023 - PAS/IFSULDEMINAS, IFSULDEMINAS - Chamada Nº 02/2025 - PAS/IFSULDEMINAS</p>
-                            <p><strong>Resumo:</strong> Este projeto propõe o desenvolvimento de uma ferramenta automatizada para adaptar questões de avaliação, tornando-as mais acessíveis e compreensíveis para 
-                                estudantes neurodivergentes, com base em recursos de Inteligência Artificial Generativa (IA generativa). A inclusão desses estudantes na educação é um desafio, e a adaptação de materiais 
-                                didáticos é essencial para garantir sua participação efetiva. A ferramenta visa não apenas adequar o conteúdo das questões, mas também torná-las mais acessíveis, contribuindo assim 
-                                para a inclusão educacional e a equidade de oportunidades. O projeto será desenvolvido de forma interdisciplinar, combinando conhecimentos das áreas de educação especial, tecnologia 
-                                da informação e inteligência artificial.</p>
-                        </div>
+      <!-- Project section-->
+      <section class="py-5 bg-light" id="projects">
+        <div class="container px-5 my-5">
+          <div class="row gx-5 align-items-center">
+            <div class="col-lg-12">
+              <h2 class="fw-bolder">Projetos de Pesquisa</h2>
+              <hr class="mb-5" />
+              <div class="mb-5">
+                <h3 class="fw-bold">
+                  Heurísticas de Usabilidade Aplicadas a Avaliação de uma
+                  Arquitetura Computacional para Adaptação de Questões para
+                  Estudantes Neurodivergentes (2024 - Atual)
+                </h3>
+                <p>
+                  <strong>Financiamento:</strong> CNPq - Chamada Nº 116/2024 -
+                  PIBIC-EM CNPq/IFSULDEMINAS
+                </p>
+                <p>
+                  <strong>Resumo:</strong> A inclusão de estudantes com
+                  necessidades específicas representa um desafio constante na
+                  educação, exigindo um compromisso contínuo e abrangente para
+                  promover práticas inclusivas e garantir o pleno
+                  desenvolvimento de cada indivíduo. A adaptação de materiais
+                  didáticos, como questões de avaliação, é essencial para
+                  garantir que todos os alunos possam participar ativamente do
+                  processo de aprendizagem. Dentre as soluções existentes para
+                  adaptação de questões destaca-se a Mind Bridge, ferramenta que
+                  utiliza mecanismos de Inteligência Artificial Generativa para
+                  sugerir diferentes versões de questões adaptadas. Com base
+                  nisso, este trabalho tem como objetivo a análise,
+                  desenvolvimento e implantação de uma interface inteligente
+                  para adaptação de questões fundamentadas na plataforma Mind
+                  Bridge. A proposta será validade a partir da aplicação de
+                  diferentes heurísticas de usabilidade disponíveis na
+                  literatura.
+                </p>
+              </div>
 
-                        <div class="mb-5">
-                            <h3 class="fw-bold">Uso da inteligência artificial para a classificação de risco de mulheres negras nas assistências pré-natal e parto no contexto brasileiro (2023 - Atual)</h3>
-                            <p><strong>Financiamento:</strong> CNPq - Chamada Nacional Nº 21/2023</p>
-                            <p><strong>Resumo:</strong> São indiscutíveis e preocupantes as evidências acerca de disparidades de raça/cor nas condições de atenção pré-natal e parto das mulheres brasileiras. 
-                                Por conta da discriminação racial, mulheres negras apresentam piores condições nas assistências pré-natal e no parto e várias são as vulnerabilidades que afetam esse grupo, podendo 
-                                ser vistos como determinantes sociais em saúde. Esta pesquisa visa criar um modelo computacional de classificação de risco de mulheres negras nas assistências pré-natal e parto, 
-                                usando modelos de inteligência artificial a partir de um grande volume de dados.</p>
-                        </div>
+              <div class="mb-5">
+                <h3 class="fw-bold">
+                  Ferramenta automatizada para adaptação de questões para
+                  estudantes neurodivergentes fundamentada em recursos de
+                  Inteligência Artificial Generativa (2024 - Atual)
+                </h3>
+                <p>
+                  <strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº
+                  19/2023 - PAS/IFSULDEMINAS, IFSULDEMINAS - Chamada Nº 02/2025
+                  - PAS/IFSULDEMINAS
+                </p>
+                <p>
+                  <strong>Resumo:</strong> Este projeto propõe o desenvolvimento
+                  de uma ferramenta automatizada para adaptar questões de
+                  avaliação, tornando-as mais acessíveis e compreensíveis para
+                  estudantes neurodivergentes, com base em recursos de
+                  Inteligência Artificial Generativa (IA generativa). A inclusão
+                  desses estudantes na educação é um desafio, e a adaptação de
+                  materiais didáticos é essencial para garantir sua participação
+                  efetiva. A ferramenta visa não apenas adequar o conteúdo das
+                  questões, mas também torná-las mais acessíveis, contribuindo
+                  assim para a inclusão educacional e a equidade de
+                  oportunidades. O projeto será desenvolvido de forma
+                  interdisciplinar, combinando conhecimentos das áreas de
+                  educação especial, tecnologia da informação e inteligência
+                  artificial.
+                </p>
+              </div>
 
-                        
-                        <div class="mb-5">
-                            <h3 class="fw-bold">Predição da Mortalidade Infantil no Brasil utilizando Machine Learning e Record Linkage de Dados do SUS (2025 - Atual)</h3>
-                            <p><strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº 02/2025 - PAS/IFSULDEMINAS</p>
-                            <p><strong>Resumo:</strong> A Mortalidade Infantil (MI) é um indicador crítico da saúde pública e das desigualdades sociais. Este projeto propõe a construção de um sistema preditivo da mortalidade infantil no Brasil, a partir da integração e análise de bases de dados do Sistema Único de Saúde (SUS), com foco em técnicas de aprendizado de máquina. A pesquisa dá continuidade a uma etapa anterior, que já realizou o linkage determinístico entre os bancos SINASC e SIM, gerando uma base integrada com mais de 260 mil registros — cuja metodologia foi apresentada em artigo aceito no ICISMED 2025. Nesta nova fase, serão reavaliadas as estratégias de integração, ampliando a análise para outras fontes do DataSUS, como o SIH/SUS e o SINAN. A variável alvo (predição de mortalidade) será construída a partir dos registros vinculados, e o desbalanceamento entre classes será tratado com a técnica SMOTE. Serão utilizados algoritmos supervisionados, como XGBoost e Regressão Logística, avaliados por métricas como F1-score e recall. Os resultados serão discutidos com apoio de um profissional da saúde, garantindo sua contextualização sob a ótica clínica e de políticas públicas. Espera-se gerar uma ferramenta preditiva robusta, com aplicabilidade no monitoramento e na formulação de estratégias para redução da mortalidade infantil no Brasil.</p>
-                        </div>
-                        <div class="mb-5">
-                            <h3 class="fw-bold">Análise Temporal da distribuição dos casos de Pessoas que Vivem com HIV/Aids no Brasil (2025 - Atual)</h3>
-                            <p><strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº 02/2025 - PAS/IFSULDEMINAS</p>
-                            <p><strong>Resumo:</strong> Analisar a tendência temporal dos casos de HIV/Aids na população no Brasil, no período de 2005 a 2023. Métodos: Trata-se de um estudo epidemiológico, transversal, descritivo-analítico e com abordagem quantitativa, com dados secundários de 2005 a 2023, pela plataforma online do DATASUS. Por se tratar de um estudo realizado com dados secundários de domínio público, dispensa apreciação Ética. A população que será analisada será de pessoas com diagnóstico de HIV/Aids com registros no sistema de 2005 a 2023 e a região de residência. Para a análise será empregado o programa   Joinpoint® (versão   4.2.02). Resultados: Espera-se identificar movimentos de normalidade, crescimento e queda de números que possam ser justificados pelo emprego, ou não, de políticas de saúde, bem como identificar regiões e populações de maior concentração de casos.</p>
-                        </div>
-                        <div class="mb-5">
-                            <h3 class="fw-bold">Sistema Adaptativo e Inteligente para Educação Fundamentado em Técnicas de Análise de Dados (2023 - 2025)</h3>
-                            <p><strong>Financiamento:</strong> FAPEMIG - Chamada Nº 73/2023 - PIBIC FAPEMIG/IFSULDEMINAS</p>
-                            <p><strong>Resumo:</strong> Novas tecnologias surgem diariamente com o intuito de auxiliar na criação de ferramentas cada vez mais adaptáveis às particularidades de cada usuário. 
-                                No ambiente educacional não é diferente, personalizar o conteúdo que será disponibilizado para cada estudante com base nas suas características, níveis de conhecimento e perfis 
-                                de comportamento é um dos principais desafios da computação. Neste sentido, este projeto tem como objetivo principal a construção de um Sistema Adaptativo e Inteligente para Educação 
-                                que trabalhe com recursos e técnicas de Análise de Dados.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                        <h2 class="fw-bolder">Projetos de Extensão</h2>
-                        <hr class="mb-5">
-                        <div class="mb-5">
-                            <h3 class="fw-bold">Ensino de Programação utilizando Robótica Educacional e Metodologias Ativas aplicada a estudantes do ensino fundamental e médio de escolas públicas (2025 - Atual)</h3>
-                            <p><strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº 03/2025 - PAS/IFSULDEMINAS</p>
-                            <p><strong>Resumo: </strong>Nos últimos anos, com o advento de recursos tecnológicos cada vez mais sofisticados, tem-se notado que diversas atividades desempenhadas por 
-                                humanos foram simplificadas de forma significativa. Essas atividades podem variar desde uma transferência bancária, realizada por meio da manipulação de um aplicativo 
-                                para dispositivos móveis, à limpeza de um ambiente físico, a qual pode ser desempenhada por um agente inteligente (robô) programado para tal fim. De modo a construir 
-                                entidades tecnológicas como as supramencionadas, faz-se necessário realizar a programação de dispositivos. Entretanto, a aprendizagem de programação, nos dias atuais, 
-                                é notadamente conhecida como um grande desafio para a grande parte dos interessados na temática. Nesse sentido, de forma a contornar os obstáculos impostos pela rigidez 
-                                introdutória da programação, pode-se fazer o uso de recursos lúdicos, por exemplo, por meio da robótica educacional. No processo ensino-aprendizagem, as atividades lúdicas, 
-                                aliadas às metodologias ativas, possuem um grande potencial para atrair a atenção dos estudantes e, por consequência, otimizar o aprendizado. Nesse sentido, este projeto tem 
-                                como objetivo central apresentar uma proposta de ensino de programação para estudantes do ensino fundamental e médio, com o auxílio de robótica educacional e de metodologias 
-                                ativas. Dessa forma, espera-se que, com o desenvolvimento deste projeto, estudantes poderão se capacitar e propor soluções por meio da programação.
-                            </p>
-                        </div>
-                        <div class="mb-5">
-                            <h3 class="fw-bold">Emprega Mais: protótipo de um aplicativo para integração entre escola e trabalho (2025 - Atual)</h3>
-                            <p><strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº 03/2025 - PAS/IFSULDEMINAS</p>
-                            <p><strong>Resumo: </strong>A integração entre o mercado de trabalho e a escola é importante para uma boa formação do profissional. Hoje, está cada vez mais difícil 
-                                encontrar um profissional qualificado que atenda às necessidades de uma determinada empresa. Este trabalho propõe a criação de um protótipo de um aplicativo para promover 
-                                a integração entre a escola e o trabalho. Para realizar o projeto, será necessário identificar as atividades e necessidades atuais deste setor da instituição, criar o 
-                                protótipo com base no tipo identificado, realizar testes de usabilidade e refinamento. Após, uma versão final do protótipo será apresentada. Conectar alunos com vagas 
-                                de emprego por meio de parcerias com empresas é muito interessante e tem grande potencial, como a equidade de participação nas oportunidades de trabalho locais e regionais 
-                                e eficiência no ingresso do mundo do trabalho.
-                            </p>
-                        </div>
-                        <div class="mb-5">
-                            <h3 class="fw-bold">IF Reciclatech: Economia Circular Aplicada à Reciclagem e ao Reaproveitamento de Resíduos Tecnológicos no Espaço Maker do IFSULDEMINAS - Campus Passos (2025 - Atual)</h3>
-                            <p><strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº 03/2025 - PAS/IFSULDEMINAS</p>
-                            <p><strong>Resumo:</strong> De acordo com a The Global E-Waste Monitor, em pesquisa realizada no ano de 2024, a geração global de resíduos eletrônicos atingiu cerca de 62 
-                                bilhões de quilos no ano de 2022, um aumento em 82% do lixo eletrônico mundial produzido, considerando o período de 2010 a 2022. Segundo a ONU, em levantamento realizado 
-                                no ano de 2024, o Brasil é responsável por gerar 2,4 milhões de toneladas de resíduos de equipamentos eletroeletrônicos (e-lixo), ocupando o quinto lugar dos maiores 
-                                produtores de e-lixo no mundo. Considerando o cenário descrito, o projeto IF ReciclaTech propõe a implementação de práticas de economia circular no IFSULDEMINAS, através 
-                                de parcerias com empresas que produzem resíduos eletrônicos. O foco é a reutilização desses insumos para a criação de dispositivos eletrônicos, de modo que estes venham 
-                                a beneficiar os projetos de robótica executados no Espaço Maker do IFSULDEMINAS - Campus Passos. A metodologia envolve a triagem de resíduos, a geração de protótipos e a 
-                                implementação de práticas de conscientização voltadas para a comunidade sobre a necessidade de realizar a reciclagem de resíduos eletrônicos. Resultados esperados incluem 
-                                a redução de resíduos eletrônicos descartados, parcerias entre o IFSULDEMINAS e a empresa fornecedora de insumo, o desenvolvimento de dispositivos eletrônicos a partir de 
-                                materiais reciclados e a conscientização da comunidade, sobre a necessidade de adotar práticas de reciclagem, bem como por possibilitar que os participantes produzam novas 
-                                peças através do reuso dos resíduos eletrônicos. Além disso, o projeto prevê a destinação ambientalmente correta dos resíduos que não puderem ser reaproveitados, garantindo 
-                                que sejam descartados de maneira sustentável e em conformidade com as diretrizes ambientais.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+              <div class="mb-5">
+                <h3 class="fw-bold">
+                  Uso da inteligência artificial para a classificação de risco
+                  de mulheres negras nas assistências pré-natal e parto no
+                  contexto brasileiro (2023 - Atual)
+                </h3>
+                <p>
+                  <strong>Financiamento:</strong> CNPq - Chamada Nacional Nº
+                  21/2023
+                </p>
+                <p>
+                  <strong>Resumo:</strong> São indiscutíveis e preocupantes as
+                  evidências acerca de disparidades de raça/cor nas condições de
+                  atenção pré-natal e parto das mulheres brasileiras. Por conta
+                  da discriminação racial, mulheres negras apresentam piores
+                  condições nas assistências pré-natal e no parto e várias são
+                  as vulnerabilidades que afetam esse grupo, podendo ser vistos
+                  como determinantes sociais em saúde. Esta pesquisa visa criar
+                  um modelo computacional de classificação de risco de mulheres
+                  negras nas assistências pré-natal e parto, usando modelos de
+                  inteligência artificial a partir de um grande volume de dados.
+                </p>
+              </div>
+
+              <div class="mb-5">
+                <h3 class="fw-bold">
+                  Predição da Mortalidade Infantil no Brasil utilizando Machine
+                  Learning e Record Linkage de Dados do SUS (2025 - Atual)
+                </h3>
+                <p>
+                  <strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº
+                  02/2025 - PAS/IFSULDEMINAS
+                </p>
+                <p>
+                  <strong>Resumo:</strong> A Mortalidade Infantil (MI) é um
+                  indicador crítico da saúde pública e das desigualdades
+                  sociais. Este projeto propõe a construção de um sistema
+                  preditivo da mortalidade infantil no Brasil, a partir da
+                  integração e análise de bases de dados do Sistema Único de
+                  Saúde (SUS), com foco em técnicas de aprendizado de máquina. A
+                  pesquisa dá continuidade a uma etapa anterior, que já realizou
+                  o linkage determinístico entre os bancos SINASC e SIM, gerando
+                  uma base integrada com mais de 260 mil registros — cuja
+                  metodologia foi apresentada em artigo aceito no ICISMED 2025.
+                  Nesta nova fase, serão reavaliadas as estratégias de
+                  integração, ampliando a análise para outras fontes do DataSUS,
+                  como o SIH/SUS e o SINAN. A variável alvo (predição de
+                  mortalidade) será construída a partir dos registros
+                  vinculados, e o desbalanceamento entre classes será tratado
+                  com a técnica SMOTE. Serão utilizados algoritmos
+                  supervisionados, como XGBoost e Regressão Logística, avaliados
+                  por métricas como F1-score e recall. Os resultados serão
+                  discutidos com apoio de um profissional da saúde, garantindo
+                  sua contextualização sob a ótica clínica e de políticas
+                  públicas. Espera-se gerar uma ferramenta preditiva robusta,
+                  com aplicabilidade no monitoramento e na formulação de
+                  estratégias para redução da mortalidade infantil no Brasil.
+                </p>
+              </div>
+              <div class="mb-5">
+                <h3 class="fw-bold">
+                  Análise Temporal da distribuição dos casos de Pessoas que
+                  Vivem com HIV/Aids no Brasil (2025 - Atual)
+                </h3>
+                <p>
+                  <strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº
+                  02/2025 - PAS/IFSULDEMINAS
+                </p>
+                <p>
+                  <strong>Resumo:</strong> Analisar a tendência temporal dos
+                  casos de HIV/Aids na população no Brasil, no período de 2005 a
+                  2023. Métodos: Trata-se de um estudo epidemiológico,
+                  transversal, descritivo-analítico e com abordagem
+                  quantitativa, com dados secundários de 2005 a 2023, pela
+                  plataforma online do DATASUS. Por se tratar de um estudo
+                  realizado com dados secundários de domínio público, dispensa
+                  apreciação Ética. A população que será analisada será de
+                  pessoas com diagnóstico de HIV/Aids com registros no sistema
+                  de 2005 a 2023 e a região de residência. Para a análise será
+                  empregado o programa Joinpoint® (versão 4.2.02). Resultados:
+                  Espera-se identificar movimentos de normalidade, crescimento e
+                  queda de números que possam ser justificados pelo emprego, ou
+                  não, de políticas de saúde, bem como identificar regiões e
+                  populações de maior concentração de casos.
+                </p>
+              </div>
+              <div class="mb-5">
+                <h3 class="fw-bold">
+                  Sistema Adaptativo e Inteligente para Educação Fundamentado em
+                  Técnicas de Análise de Dados (2023 - 2025)
+                </h3>
+                <p>
+                  <strong>Financiamento:</strong> FAPEMIG - Chamada Nº 73/2023 -
+                  PIBIC FAPEMIG/IFSULDEMINAS
+                </p>
+                <p>
+                  <strong>Resumo:</strong> Novas tecnologias surgem diariamente
+                  com o intuito de auxiliar na criação de ferramentas cada vez
+                  mais adaptáveis às particularidades de cada usuário. No
+                  ambiente educacional não é diferente, personalizar o conteúdo
+                  que será disponibilizado para cada estudante com base nas suas
+                  características, níveis de conhecimento e perfis de
+                  comportamento é um dos principais desafios da computação.
+                  Neste sentido, este projeto tem como objetivo principal a
+                  construção de um Sistema Adaptativo e Inteligente para
+                  Educação que trabalhe com recursos e técnicas de Análise de
+                  Dados.
+                </p>
+              </div>
             </div>
-        </section>
-       
+          </div>
+          <div class="col-lg-12">
+            <h2 class="fw-bolder">Projetos de Extensão</h2>
+            <hr class="mb-5" />
+            <div class="mb-5">
+              <h3 class="fw-bold">
+                Ensino de Programação utilizando Robótica Educacional e
+                Metodologias Ativas aplicada a estudantes do ensino fundamental
+                e médio de escolas públicas (2025 - Atual)
+              </h3>
+              <p>
+                <strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº
+                03/2025 - PAS/IFSULDEMINAS
+              </p>
+              <p>
+                <strong>Resumo: </strong>Nos últimos anos, com o advento de
+                recursos tecnológicos cada vez mais sofisticados, tem-se notado
+                que diversas atividades desempenhadas por humanos foram
+                simplificadas de forma significativa. Essas atividades podem
+                variar desde uma transferência bancária, realizada por meio da
+                manipulação de um aplicativo para dispositivos móveis, à limpeza
+                de um ambiente físico, a qual pode ser desempenhada por um
+                agente inteligente (robô) programado para tal fim. De modo a
+                construir entidades tecnológicas como as supramencionadas,
+                faz-se necessário realizar a programação de dispositivos.
+                Entretanto, a aprendizagem de programação, nos dias atuais, é
+                notadamente conhecida como um grande desafio para a grande parte
+                dos interessados na temática. Nesse sentido, de forma a
+                contornar os obstáculos impostos pela rigidez introdutória da
+                programação, pode-se fazer o uso de recursos lúdicos, por
+                exemplo, por meio da robótica educacional. No processo
+                ensino-aprendizagem, as atividades lúdicas, aliadas às
+                metodologias ativas, possuem um grande potencial para atrair a
+                atenção dos estudantes e, por consequência, otimizar o
+                aprendizado. Nesse sentido, este projeto tem como objetivo
+                central apresentar uma proposta de ensino de programação para
+                estudantes do ensino fundamental e médio, com o auxílio de
+                robótica educacional e de metodologias ativas. Dessa forma,
+                espera-se que, com o desenvolvimento deste projeto, estudantes
+                poderão se capacitar e propor soluções por meio da programação.
+              </p>
+            </div>
+            <div class="mb-5">
+              <h3 class="fw-bold">
+                Emprega Mais: protótipo de um aplicativo para integração entre
+                escola e trabalho (2025 - Atual)
+              </h3>
+              <p>
+                <strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº
+                03/2025 - PAS/IFSULDEMINAS
+              </p>
+              <p>
+                <strong>Resumo: </strong>A integração entre o mercado de
+                trabalho e a escola é importante para uma boa formação do
+                profissional. Hoje, está cada vez mais difícil encontrar um
+                profissional qualificado que atenda às necessidades de uma
+                determinada empresa. Este trabalho propõe a criação de um
+                protótipo de um aplicativo para promover a integração entre a
+                escola e o trabalho. Para realizar o projeto, será necessário
+                identificar as atividades e necessidades atuais deste setor da
+                instituição, criar o protótipo com base no tipo identificado,
+                realizar testes de usabilidade e refinamento. Após, uma versão
+                final do protótipo será apresentada. Conectar alunos com vagas
+                de emprego por meio de parcerias com empresas é muito
+                interessante e tem grande potencial, como a equidade de
+                participação nas oportunidades de trabalho locais e regionais e
+                eficiência no ingresso do mundo do trabalho.
+              </p>
+            </div>
+            <div class="mb-5">
+              <h3 class="fw-bold">
+                IF Reciclatech: Economia Circular Aplicada à Reciclagem e ao
+                Reaproveitamento de Resíduos Tecnológicos no Espaço Maker do
+                IFSULDEMINAS - Campus Passos (2025 - Atual)
+              </h3>
+              <p>
+                <strong>Financiamento:</strong> IFSULDEMINAS - Chamada Nº
+                03/2025 - PAS/IFSULDEMINAS
+              </p>
+              <p>
+                <strong>Resumo:</strong> De acordo com a The Global E-Waste
+                Monitor, em pesquisa realizada no ano de 2024, a geração global
+                de resíduos eletrônicos atingiu cerca de 62 bilhões de quilos no
+                ano de 2022, um aumento em 82% do lixo eletrônico mundial
+                produzido, considerando o período de 2010 a 2022. Segundo a ONU,
+                em levantamento realizado no ano de 2024, o Brasil é responsável
+                por gerar 2,4 milhões de toneladas de resíduos de equipamentos
+                eletroeletrônicos (e-lixo), ocupando o quinto lugar dos maiores
+                produtores de e-lixo no mundo. Considerando o cenário descrito,
+                o projeto IF ReciclaTech propõe a implementação de práticas de
+                economia circular no IFSULDEMINAS, através de parcerias com
+                empresas que produzem resíduos eletrônicos. O foco é a
+                reutilização desses insumos para a criação de dispositivos
+                eletrônicos, de modo que estes venham a beneficiar os projetos
+                de robótica executados no Espaço Maker do IFSULDEMINAS - Campus
+                Passos. A metodologia envolve a triagem de resíduos, a geração
+                de protótipos e a implementação de práticas de conscientização
+                voltadas para a comunidade sobre a necessidade de realizar a
+                reciclagem de resíduos eletrônicos. Resultados esperados incluem
+                a redução de resíduos eletrônicos descartados, parcerias entre o
+                IFSULDEMINAS e a empresa fornecedora de insumo, o
+                desenvolvimento de dispositivos eletrônicos a partir de
+                materiais reciclados e a conscientização da comunidade, sobre a
+                necessidade de adotar práticas de reciclagem, bem como por
+                possibilitar que os participantes produzam novas peças através
+                do reuso dos resíduos eletrônicos. Além disso, o projeto prevê a
+                destinação ambientalmente correta dos resíduos que não puderem
+                ser reaproveitados, garantindo que sejam descartados de maneira
+                sustentável e em conformidade com as diretrizes ambientais.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer-->
-    <footer class="bg-dark py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Gopad 2025</div></div>
-                <div class="col-auto">
-                    <a class="link-light small" href="#!">Privacy</a>
-                    <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Terms</a>
-                    <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Contact</a>
-                </div>
-            </div>
+    <footer class="footer bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">Copyright &copy;Gopad 2026</div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Contact</a>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-</body>
+  </body>
 </html>

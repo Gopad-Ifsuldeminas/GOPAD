@@ -1,97 +1,153 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Notícia Detalhada - Gopad</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../assets/logos/SIMPLIFICADA/Prancheta 4 - IMG .png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/logos/SIMPLIFICADA/Prancheta 4 - IMG.png"
+    />
+    <!-- Font Inter Local -->
+    <link rel="stylesheet" href="../assets/fonts/inter/inter.css" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- Custom CSS -->
     <link href="../css/styles.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body class="d-flex flex-column h-100">
+  <body class="d-flex flex-column h-100">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container px-5">
-            <a class="navbar-brand" href="../index.html">Gopad</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../about.html">Equipe</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../projetos.html">Projetos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../publicacoes.html">Publicações</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="../noticias.html">Notícias</a></li>
-                </ul>
-            </div>
+    <nav class="header navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container px-5">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../assets/logos/SIMPLIFICADA/Prancheta 4 - NOME.png" alt="Gopad" height="20" />
+          </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about.html">Equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../projetos.html">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../publicacoes.html">Publicações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../noticias.html">Notícias</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Header da notícia -->
-    <header class="bg-dark text-white py-5">
-        <div class="container text-center">
-            <h1 class="display-4 fw-bold">GOPAD apresenta pesquisa sobre integração de 
-                                        dados em saúde materna e infantil no SBSI 2025</h1>
-        </div>
+    <header class="hero-section bg-dark text-white py-5">
+      <div class="container text-center">
+        <h1 class="display-4 fw-bold">
+          GOPAD apresenta pesquisa sobre integração de dados em saúde materna e
+          infantil no SBSI 2025
+        </h1>
+      </div>
     </header>
 
     <!-- Conteúdo principal -->
     <main class="container my-5">
-        <div class="row">
-            <!-- Imagem de destaque (ajustada para ocupar toda a largura e ter tamanho padrão) -->
-            <div class="col-md-12">
-                <img class="img-fluid w-100 img-standard mb-4" src="../assets/news/sbsi2025-news.png" alt="Imagem da apresentação" />
-            </div>
-            <!-- Texto da notícia -->   
-            <div class="col-md-12">
-                <p class="text-muted mb-4">Publicado em: <span class="fw-bold">[25/06/2025]</span></p>
-                <article class="fs-5"style="text-align: justify;">
-                    <p>
-                        Entre os dias 19 e 23 de maio de 2025, integrantes do GOPAD (Grupo de Estudos em Organização, Processamento e Análise de Dados) marcaram presença no Simpósio Brasileiro de Sistemas de Informação (SBSI 2025)!
-                    </p>
-                    <p>
-                        Representando o grupo, os professores Hiran Nonato, Vinícius Silva e a estudante Maria Clara Batista apresentaram o trabalho <strong>"Integração e Visualização de Dados de Saúde Materna e Infantil: Uma Arquitetura Computacional para Análise e Suporte à Tomada de Decisão"</strong>. O trabalho faz parte de um estudo maior que explora o uso da inteligência artificial para a classificação de risco de mulheres negras nas assistências pré-natal e parto no contexto brasileiro, projeto financiado pelo CNPq sob coordenação do professor Juliano de Souza Caliari.
-                    </p>
-                    <p>
-                        A proposta envolve a criação de uma arquitetura computacional capaz de integrar dados de três importantes Sistemas de Informação em Saúde no Brasil: SIM, SINASC e SIH. A ideia é facilitar a análise integrada e visualização desses dados, apoiando a formulação de políticas públicas com base em evidências.
-                    </p>
-                    <p>
-                        Os resultados parciais já demonstram o potencial da ferramenta, com a consolidação das bases em um único repositório unificado, que permite recortes temporais, regionais e sociais.
-                    </p>
-                </article>
-            </div>
+      <div class="row">
+        <!-- Imagem de destaque (ajustada para ocupar toda a largura e ter tamanho padrão) -->
+        <div class="col-md-12">
+          <img
+            class="img-fluid w-100 img-standard mb-4"
+            src="../assets/news/sbsi2025-news.png"
+            alt="Imagem da apresentação"
+          />
         </div>
+        <!-- Texto da notícia -->
+        <div class="col-md-12">
+          <p class="text-muted mb-4">
+            Publicado em: <span class="fw-bold">[25/06/2025]</span>
+          </p>
+          <article class="fs-5" style="text-align: justify">
+            <p>
+              Entre os dias 19 e 23 de maio de 2025, integrantes do GOPAD (Grupo
+              de Estudos em Organização, Processamento e Análise de Dados)
+              marcaram presença no Simpósio Brasileiro de Sistemas de Informação
+              (SBSI 2025)!
+            </p>
+            <p>
+              Representando o grupo, os professores Hiran Nonato, Vinícius Silva
+              e a estudante Maria Clara Batista apresentaram o trabalho
+              <strong
+                >"Integração e Visualização de Dados de Saúde Materna e
+                Infantil: Uma Arquitetura Computacional para Análise e Suporte à
+                Tomada de Decisão"</strong
+              >. O trabalho faz parte de um estudo maior que explora o uso da
+              inteligência artificial para a classificação de risco de mulheres
+              negras nas assistências pré-natal e parto no contexto brasileiro,
+              projeto financiado pelo CNPq sob coordenação do professor Juliano
+              de Souza Caliari.
+            </p>
+            <p>
+              A proposta envolve a criação de uma arquitetura computacional
+              capaz de integrar dados de três importantes Sistemas de Informação
+              em Saúde no Brasil: SIM, SINASC e SIH. A ideia é facilitar a
+              análise integrada e visualização desses dados, apoiando a
+              formulação de políticas públicas com base em evidências.
+            </p>
+            <p>
+              Os resultados parciais já demonstram o potencial da ferramenta,
+              com a consolidação das bases em um único repositório unificado,
+              que permite recortes temporais, regionais e sociais.
+            </p>
+          </article>
+        </div>
+      </div>
     </main>
 
     <!-- Footer-->
-    <footer class="bg-dark py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy;Gopad 2025</div>
-                </div>
-                <div class="col-auto">
-                    <a class="link-light small" href="#!">Privacy</a>
-                    <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Terms</a>
-                    <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Contact</a>
-                </div>
-            </div>
+    <footer class="footer bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">Copyright &copy;Gopad 2026</div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Contact</a>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>

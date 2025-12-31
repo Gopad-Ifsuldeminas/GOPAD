@@ -1,661 +1,927 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta name="description" content="" />
     <meta name="Julio" content="" />
     <title>Gopad</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/logos/SIMPLIFICADA/Prancheta 4 - IMG .png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/logos/SIMPLIFICADA/Prancheta 4 - IMG .png"
+    />
+    <!-- Font Inter Local -->
+    <link rel="stylesheet" href="assets/fonts/inter/inter.css" />
     <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-</head>
-<style>
-</style>
-<body class="d-flex flex-column">
-    <main class="flex-shrink-0">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="index.html">Gopad</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="about.html">Equipe</a></li>
-                        <li class="nav-item"><a class="nav-link" href="projetos.html">Projetos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="publicacoes.html">Publicações</a></li>
-                        <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+  </head>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
-       <!-- Header-->
-<header class="bg-dark py-3">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
+  <body class="d-flex flex-column">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="header navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/logos/SIMPLIFICADA/Prancheta 4 - NOME.png" alt="Gopad" height="20" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">Equipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projetos.html">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="publicacoes.html">Publicações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header-->
+      <header class="hero-section bg-dark py-3">
+        <div class="container px-5">
+          <div class="row gx-5 align-items-center">
             <!-- Logo -->
             <div class="col-md-4 text-center text-md-start">
-                <img class="img-fluid rounded-3 my-3" src="./assets/logos/SIMPLIFICADA/Prancheta 4.png" alt="Logo" />
+              <img
+                class="img-fluid rounded-3 my-3"
+                src="./assets/logos/SIMPLIFICADA/Prancheta 4.png"
+                alt="Logo"
+              />
             </div>
             <!-- Texto -->
             <div class="col-md-8">
-                <div class="text-center text-md-start">
-                    <h1 class="display-6 fw-bolder text-white mb-2">
-                        Grupo de Estudos em Organização, Processamento e Análise de Dados
-                    </h1>
-                    <p class="lead fw-normal text-white-50 mb-4">
-                        Explore os nossos projetos e publicações mais recentes.
-                    </p>
-                </div>
+              <div class="text-center text-md-start">
+                <h1 class="display-6 fw-bolder text-white mb-2">
+                  Grupo de Estudos em Organização, Processamento e Análise de
+                  Dados
+                </h1>
+                <p class="lead fw-normal text-white-50 mb-4">
+                  Conheça nossa equipe de professores, estudantes e egressos.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</header>
+      </header>
 
-
+      <!-- Professores Section -->
+      <section class="py-5 bg-light">
         <div class="container px-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-xxl-6">
-                    <div class="text-center my-5">
-                        <h1 class="fw-bolder mb-3">Professores</h1>
-                    </div>
+          <div class="text-center mb-5">
+            <h1 class="fw-bolder mb-3">Professores</h1>
+          </div>
+
+          <div class="row g-4">
+            <!-- Professor 1 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/hiran.jpg"
+                  class="card-img-top member-img"
+                  alt="Hiran Nonato"
+                />
+                <div class="card-body member-info">
+                  <h5 class="card-title fw-bolder">
+                    Hiran Nonato Macedo Ferreira
+                  </h5>
+                  <p class="text-muted mb-2">
+                    <small>Doutor em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Áreas:</strong> Algoritmos, Ciência de dados,
+                      Interação Humano-Computador</small
+                    >
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Email:</strong>
+                      hiran.ferreira@ifsuldeminas.edu.br</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/6814993444976680"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0000-0002-4977-9495"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
 
-        <section class="py-5 bg-light" id="scroll-target">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/hiran.jpg" alt="foto perfil">
+            <!-- Professor 2 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/vinicius.jpg"
+                  class="card-img-top member-img"
+                  alt="Vinícius Alves"
+                />
+                <div class="card-body member-info">
+                  <h5 class="card-title fw-bolder">Vinícius Alves Silva</h5>
+                  <p class="text-muted mb-2">
+                    <small>Doutor em Engenharia de Software</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Áreas:</strong> Engenharia de Software,
+                      Informática na Educação, Ciência de Dados</small
+                    >
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Email:</strong>
+                      vinicius.silva@ifsuldeminas.edu.br</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/8402004260858548"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0000-0002-0726-7379"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
                 </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Hiran Nonato Macedo Ferreira</h2>
-                        <p class="lead fw-normal text-muted mb-0">Doutor em Ciência da Computação</p>
-                        <p class="text-muted mb-0">Áreas de atuação:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Algoritmos</li>
-                            <li>Ciência de dados</li>
-                            <li>Interação Humano-Computador</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> hiran.ferreira@ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/6814993444976680" target="_blank" class="text-muted">http://lattes.cnpq.br/6814993444976680</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0000-0002-4977-9495" target="_blank" class="text-muted">https://orcid.org/0000-0002-4977-9495</a>
-                        </p>
-                        
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
 
-        <section class="py-5 bg-light" id="scroll-target">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/vinicius.jpg" alt="foto perfil">
+            <!-- Professor 3 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/wedson.jpg"
+                  class="card-img-top member-img"
+                  alt="Wedson Gomes"
+                />
+                <div class="card-body member-info">
+                  <h5 class="card-title fw-bolder">
+                    Wedson Gomes da Silveira Junior
+                  </h5>
+                  <p class="text-muted mb-2">
+                    <small>Doutor em Biotecnologia</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Áreas:</strong> Ciência da Computação, Ciência de
+                      Dados, Biotecnologia</small
+                    >
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Email:</strong>
+                      wedson.junior@ifsuldeminas.edu.br</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/8344770073168699"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0005-2481-0301"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
                 </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Vinícius Alves Silva</h2>
-                        <p class="lead fw-normal text-muted mb-0">Doutor em Engenharia de Software</p>
-                        <p class="text-muted mb-0">Áreas de atuação:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Engenharia de Software</li>
-                            <li>Informática na Educação</li>
-                            <li>Ciência de Dados</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> vinicius.silva@ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/8402004260858548" target="_blank" class="text-muted">http://lattes.cnpq.br/8402004260858548</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0000-0002-0726-7379" target="_blank" class="text-muted">https://orcid.org/0000-0002-0726-7379</a>
-                        </p>
-                        
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
 
-        <section class="py-5 bg-light" id="scroll-target">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/wedson.jpg" alt="foto perfil">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Wedson Gomes da Silveira Junior</h2>
-                        <p class="lead fw-normal text-muted mb-0">Doutor em Biotecnologia</p>
-                        <p class="text-muted mb-0">Áreas de atuação:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Ciência da Computação</li>
-                            <li>Ciência de Dados</li>
-                            <li>Biotecnologia</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> wedson.junior@ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/8344770073168699" target="_blank" class="text-muted">http://lattes.cnpq.br/8344770073168699</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0009-0005-2481-0301" target="_blank" class="text-muted">https://orcid.org/0009-0005-2481-0301</a>
-                        </p>
-                    </div>
+            <!-- Professor 4 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/juvencio.jpg"
+                  class="card-img-top member-img"
+                  alt="Juvêncio Geraldo"
+                />
+                <div class="card-body member-info">
+                  <h5 class="card-title fw-bolder">
+                    Juvêncio Geraldo de Moura
+                  </h5>
+                  <p class="text-muted mb-2">
+                    <small
+                      >Mestre em Modelagem Matemática e Computacional</small
+                    >
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Áreas:</strong> Ciência da Computação, Redes de
+                      Computadores, Sistemas Operacionais</small
+                    >
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Email:</strong>
+                      juvencio.moura@ifsuldeminas.edu.br</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/4498646103598595"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0000-0002-3410-3601"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
 
-        <section class="py-5 bg-light" id="scroll-target">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/juvencio.jpg" alt="foto perfil">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Juvêncio Geraldo de Moura</h2>
-                        <p class="lead fw-normal text-muted mb-0">Mestre em Modelagem Matemática e Computacional</p>
-                        <p class="text-muted mb-0">Áreas de atuação:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Ciência da Computação</li>
-                            <li>Redes de Computadores</li>
-                            <li>Sistemas Operacionais</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> juvencio.moura@ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/4498646103598595" target="_blank" class="text-muted">http://lattes.cnpq.br/4498646103598595</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0000-0002-3410-3601" target="_blank" class="text-muted">https://orcid.org/0000-0002-3410-3601</a>
-                        </p>
-                    </div>
+            <!-- Professor 5 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/juliano.jpg"
+                  class="card-img-top member-img"
+                  alt="Juliano de Souza"
+                />
+                <div class="card-body member-info">
+                  <h5 class="card-title fw-bolder">Juliano de Souza Caliari</h5>
+                  <p class="text-muted mb-2">
+                    <small>Doutor em Enfermagem</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Áreas:</strong> Doenças Infectocontagiosas,
+                      Enfermagem</small
+                    >
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Email:</strong>
+                      juliano.caliari@ifsuldeminas.edu.br</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/9841209843799788"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0000-0002-3021-1138"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
 
-        <section class="py-5 bg-light" id="scroll-target">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/juliano.jpg" alt="foto perfil">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Juliano de Souza Caliari</h2>
-                        <p class="lead fw-normal text-muted mb-0">Doutor em Enfermagem</p>
-                        <p class="text-muted mb-0">Áreas de atuação:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Doenças Infectocontagiosas</li>
-                            <li>Enfermagem</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> juliano.caliari@ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/9841209843799788" target="_blank" class="text-muted">http://lattes.cnpq.br/9841209843799788</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0000-0002-3021-1138" target="_blank" class="text-muted">https://orcid.org/0000-0002-3021-1138</a>
-                        </p>
-                    </div>
+            <!-- Professor 6 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/rodrigo.jpeg"
+                  class="card-img-top member-img"
+                  alt="Rodrigo Ferreira"
+                />
+                <div class="card-body member-info">
+                  <h5 class="card-title fw-bolder">
+                    Rodrigo Ferreira de Abreu
+                  </h5>
+                  <p class="text-muted mb-2">
+                    <small
+                      >Doutor em Estatística e Experimentação
+                      Agropecuária</small
+                    >
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Áreas:</strong> Estatística Espacial, Modelos não
+                      lineares, Ciência de dados</small
+                    >
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Email:</strong>
+                      rodrigo.abreu@ifsuldeminas.edu.br</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/4333481958766805"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0000-0001-7269-402X"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
 
-        <section class="py-5 bg-light" id="scroll-target">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/rodrigo.jpeg" alt="foto perfil">
-                </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Rodrigo Ferreira de Abreu</h2>
-                        <p class="lead fw-normal text-muted mb-0">Doutor em Estatística e Experimentação Agropecuária</p>
-                        <p class="text-muted mb-0">Áreas de atuação:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Estatística Espacial</li>
-                            <li>Modelos não lineares</li>
-                            <li>Ciência de dados</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> rodrigo.abreu@ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/4333481958766805" target="_blank" class="text-muted">http://lattes.cnpq.br/4333481958766805</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0000-0001-7269-402X" target="_blank" class="text-muted">https://orcid.org/0000-0001-7269-402X</a>
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-        <div class="container px-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-xxl-6">
-                    <div class="text-center my-5">
-                        <h1 class="fw-bolder mb-3">Estudantes</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-        <section class="py-5 bg-light" id="scroll-target">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/batista.jpg" alt="foto perfil">
-                </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Maria Clara Batista</h2>
-                        <p class="lead fw-normal text-muted mb-0">Graduando em Ciência da Computação</p>
-                        <p class="text-muted mb-0">Interesses:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Ciências de Dados</li>
-                            <li>Machine Learning</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> maria1.batista@alunos.ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/1329540588253645" target="_blank" class="text-muted">http://lattes.cnpq.br/1329540588253645</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0009-0008-3830-1710" target="_blank" class="text-muted">https://orcid.org/0009-0008-3830-1710</a>
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="py-5 bg-light" id="scroll-target">
-
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/mariane.jpg" alt="foto perfil">
-                    </div>
-                        <div class="col-lg-6">
-                            <h2 class="fw-bolder">Mariane Mendonça
-                            </h2>
-                            <p class="lead fw-normal text-muted mb-0">Estudante do curso Técnico em Informática
-                            </p>
-                            <p class="text-muted mb-0">Interesses:</p>
-                            <ul class="list-unstyled text-muted">
-                                <li>Informática</li>
-                            </ul>
-                            <p class="text-muted mb-0"><strong>Email: </strong>mariane.mendonca098@gmail.com</p>
-                            <p class="text-muted mb-0">
-                                <strong>Lattes:</strong> 
-                                <a href="https://lattes.cnpq.br/3948520594851526" target="_blank" class="text-muted">https://lattes.cnpq.br/3633024317437758</a>
-                            </p>
-                            <p class="text-muted mb-0">
-                                <strong>Orcid:</strong> 
-                                <a href="https://orcid.org/0009-0009-8906-2526" target="_blank" class="text-muted">https://orcid.org/0009-0006-8547-7036</a>
-                            </p>
-                            
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <section class="py-5 bg-light" id="scroll-target">
-
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/rafael.jpg" alt="foto perfil">
-                    </div>
-                        <div class="col-lg-6">
-                            <h2 class="fw-bolder">Rafael de Padua Oliveira</h2>
-                            <p class="lead fw-normal text-muted mb-0">Graduando em Ciência da Computação</p>
-                            <p class="text-muted mb-0">Interesses:</p>
-                            <ul class="list-unstyled text-muted">
-                                <li>Backend</li>
-                                <li>Problem Solving</li>
-                            </ul>
-                            <p class="text-muted mb-0"><strong>Email: </strong>rafael.padua@proton.me</p>
-                            <p class="text-muted mb-0">
-                                <strong>Lattes:</strong> 
-                                <a href="https://lattes.cnpq.br/6894446587916984" target="_blank" class="text-muted">https://lattes.cnpq.br/6894446587916984</a>
-                            </p>
-                            <p class="text-muted mb-0">
-                                <strong>Orcid:</strong> 
-                                <a href="https://orcid.org/0009-0005-9811-0981" target="_blank" class="text-muted">https://orcid.org/0009-0005-9811-0981</a>
-                            </p>
-                            
-                        </div>
-                    </div>
-                </div>
-        </section>
-        
-        
-            
-        <section class="py-5 bg-light" id="scroll-target">
-
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/ricardo.jpg" alt="foto perfil">
-                </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Ricardo Morsoleto</h2>
-                        <p class="lead fw-normal text-muted mb-0">Graduando em Ciência da Computação</p>
-                        <p class="text-muted mb-0">Interesses:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Programação</li>
-                            <li>Problem Solving</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> ricardo.morsoleto.developer@gmail.com</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/4331319177647655" target="_blank" class="text-muted">http://lattes.cnpq.br/4331319177647655</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0009-0005-4406-764X" target="_blank" class="text-muted">https://orcid.org/0009-0005-4406-764X</a>
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-5 bg-light" id="scroll-target">
-
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/joao victor.jpg" alt="foto perfil">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">João Victor Souza Soares</h2>
-                        <p class="lead fw-normal text-muted mb-0">Estudante do curso Técnico em Informática</p>
-                        <p class="text-muted mb-0">Interesses:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Desenvolvimento Web</li>
-                            <li>Backend</li>
-                            <li>Frontend</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> soaresjoaovictor252@gmail.com</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="https://lattes.cnpq.br/4100286494002011" target="_blank" class="text-muted">https://lattes.cnpq.br/4100286494002011</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                             <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0009-0005-7098-3668" target="_blank" class="text-muted">https://orcid.org/0009-0005-7098-3668</a>
-                        </p>  
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section class="py-5 bg-light" id="scroll-target">
-
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/Lucas.jpg" alt="foto perfil">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Lucas Abreu Silveira</h2>
-                        <p class="lead fw-normal text-muted mb-0">Graduando em Ciência da Computação</p>
-                        <p class="text-muted mb-0">Interesses:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Cibersegurança</li>
-                            <li>Ciência de Dados</li>
-                            <li>Machine Learning</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> lucas.abreu@alunos.ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/5306207208136265" target="_blank" class="text-muted">http://lattes.cnpq.br/4219356624632986</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                             <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0009-0004-6539-508X" target="_blank" class="text-muted">https://orcid.org/0009-0004-6539-508X</a>
-                        </p>  
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-5 bg-light" id="scroll-target">
-
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/Ronald.jpg" alt="foto perfil">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Ronald Carneiro Junior</h2>
-                        <p class="lead fw-normal text-muted mb-0">Graduando em Ciência da Computação</p>
-                        <p class="text-muted mb-0">Interesses:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Programação</li>
-                            <li>Ciência de Dados</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> ronald.junior@alunos.ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/4219356624632986" target="_blank" class="text-muted">http://lattes.cnpq.br/4219356624632986</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                             <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0009-0005-6260-7195" target="_blank" class="text-muted">https://orcid.org/0009-0005-6260-7195</a>
-                        </p>  
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-5 bg-light" id="scroll-target">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/daniel.jpg" alt="foto perfil">
-                </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Daniel Melo de Oliveira</h2>
-                        <p class="lead fw-normal text-muted mb-0">Graduando em Ciência da Computação</p>
-                        <p class="text-muted mb-0">Interesses:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Segurança da Informação</li>
-                            <li>Computação Forense</li>
-                            <li>Inteligência Artificial</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> contatodanielmelo2007@gmail.com</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/9646512749923674" target="_blank" class="text-muted">http://lattes.cnpq.br/9646512749923674</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0009-0006-1833-4705" target="_blank" class="text-muted">https://orcid.org/0009-0006-1833-4705</a>
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-5 bg-light" id="scroll-target">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/Helen.jpg" alt="foto perfil">
-                </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Helen Enes da Silva Dessa</h2>
-                        <p class="lead fw-normal text-muted mb-0">Graduando em Ciência da Computação</p>
-                        <p class="text-muted mb-0">Interesses:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Redes de Computadores</li>
-                            <li>Sistemas Operacionais</li>
-                            <li>Cibersegurança</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> helen.dessa@alunos.ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/8603497168828565" target="_blank" class="text-muted">http://lattes.cnpq.br/8603497168828565</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0009-0009-8931-2310" target="_blank" class="text-muted">https://orcid.org/0009-0009-8931-2310</a>
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-5 bg-light" id="scroll-target">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/richard.jpeg" alt="foto perfil">
-                </div>
-                    <div class="col-lg-6">
-                        <h2 class="fw-bolder">Richard Rodrigues Abreu</h2>
-                        <p class="lead fw-normal text-muted mb-0">Graduando em Ciência da Computação</p>
-                        <p class="text-muted mb-0">Interesses:</p>
-                        <ul class="list-unstyled text-muted">
-                            <li>Engenharia de Software</li>
-                            <li>Backend</li>
-                            <li>Infraestrutura</li>
-                        </ul>
-                        <p class="text-muted mb-0"><strong>Email:</strong> richard.rodrigues@alunos.ifsuldeminas.edu.br</p>
-                        <p class="text-muted mb-0">
-                            <strong>Lattes:</strong> 
-                            <a href="http://lattes.cnpq.br/2150818512064711" target="_blank" class="text-muted">http://lattes.cnpq.br/2150818512064711</a>
-                        </p>
-                        <p class="text-muted mb-0">
-                            <strong>Orcid:</strong> 
-                            <a href="https://orcid.org/0009-0001-2062-6540" target="_blank" class="text-muted">https://orcid.org/0009-0001-2062-6540</a>
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="container px-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-xxl-6">
-                    <div class="text-center my-5">
-                        <h1 class="fw-bolder mb-3">Egressos</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <section class="py-5 bg-light" id="scroll-target">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/julio.jpg" alt="foto perfil">
-                    </div>
-                        
-                        <div class="col-lg-6">
-                            <h2 class="fw-bolder">Julio Cesar da Costa Silva</h2>
-                            <p class="lead fw-normal text-muted mb-0">Graduando em Ciências da Computação</p>
-                            <p class="text-muted mb-0">Interesses:</p>
-                            <ul class="list-unstyled text-muted">
-                                <li>Engenharia de Software
-                                </li>
-                                <li>Backend</li>
-    
-                            </ul>
-                            <p class="text-muted mb-0"><strong>Email:</strong> julio.prog124@gmail.com</p>
-                            <p class="text-muted mb-0">
-                                <strong>Lattes:</strong> 
-                                <a href="http://lattes.cnpq.br/2088595653369526" target="_blank" class="text-muted">http://lattes.cnpq.br/2088595653369526</a>
-                            </p>
-                            <p class="text-muted mb-0">
-                                <strong>Orcid:</strong> 
-                                <a href="https://orcid.org/0009-0008-5278-478X" target="_blank" class="text-muted">https://orcid.org/0009-0008-5278-478X</a>
-                            </p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="py-5 bg-light" id="scroll-target">
-
-                <div class="container px-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-lg-6 d-flex justify-content-end">
-                            <img class="img-fluid rounded mb-5 mb-lg-0 custom-img" src="./assets/perfis/milner.jpg" alt="foto perfil">
-                        </div>
-                            <div class="col-lg-6">
-                                <h2 class="fw-bolder">Milnner Kauan Torres Andrade</h2>
-                                <p class="lead fw-normal text-muted mb-0">Graduando em Ciência da Computação</p>
-                                <p class="text-muted mb-0">Interesses:</p>
-                                <ul class="list-unstyled text-muted">
-                                    <li>Análise Preditiva de Dados</li>
-                                    <li>Otimização</li>
-                                </ul>
-                                <p class="text-muted mb-0"><strong>Email: </strong>milnnernj@gmail.com</p>
-                                <p class="text-muted mb-0">
-                                    <strong>Lattes:</strong> 
-                                    <a href="https://lattes.cnpq.br/3633024317437758" target="_blank" class="text-muted">https://lattes.cnpq.br/3633024317437758</a>
-                                </p>
-                                <p class="text-muted mb-0">
-                                    <strong>Orcid:</strong> 
-                                    <a href="https://orcid.org/0009-0006-8547-7036" target="_blank" class="text-muted">https://orcid.org/0009-0006-8547-7036</a>
-                                </p>
-                                
+            <!-- Professor tamplate -->
+            <!--
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card member-card shadow-sm">
+                            <img src="./assets/perfis/" class="card-img-top member-img" alt="">
+                            <div class="card-body member-info">
+                                <h5 class="card-title fw-bolder"></h5>
+                                <p class="text-muted mb-2"><small>Doutor em Estatística e Experimentação Agropecuária</small></p>
+                                <p class="text-muted mb-1"><small><strong>Áreas:</strong> Estatística Espacial, Modelos não lineares, Ciência de dados</small></p>
+                                <p class="text-muted mb-1"><small><strong>Email:</strong> </small></p>
+                                <div class="mt-2">
+                                    <a href="http://lattes.cnpq.br/" target="_blank" class="btn btn-sm btn-outline-secondary me-1">Lattes</a>
+                                    <a href="https://orcid.org/" target="_blank" class="btn btn-sm btn-outline-secondary">Orcid</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-            </section>
+                    </div> -->
+          </div>
+        </div>
+      </section>
 
+      <!-- Estudantes Section -->
+      <section class="py-5">
+        <div class="container px-5">
+          <div class="text-center mb-5">
+            <h1 class="fw-bolder mb-3">Estudantes</h1>
+          </div>
 
+          <div class="row g-4">
+            <!-- Estudante 1 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/batista.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Maria Clara"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">Maria Clara Batista</h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduando em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Ciências de Dados, Machine
+                      Learning</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/1329540588253645"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0008-3830-1710"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Estudante 2 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/mariane.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Mariane"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">Mariane Mendonça</h6>
+                  <p class="text-muted mb-1">
+                    <small>Estudante do curso Técnico em Informática</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small><strong>Interesses:</strong> Informática</small>
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="https://lattes.cnpq.br/3948520594851526"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0009-8906-2526"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Estudante 3 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/rafael.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Rafael"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">Rafael de Padua Oliveira</h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduando em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Backend, Problem
+                      Solving, Inteligência Artificial</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="https://lattes.cnpq.br/6894446587916984"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0005-9811-0981"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Estudante 4 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/joao victor.jpg"
+                  class="card-img-top member-img-student"
+                  alt="João Victor"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">João Victor Souza Soares</h6>
+                  <p class="text-muted mb-1">
+                    <small>Estudante do curso Técnico em Informática</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Web,
+                      Backend, Frontend</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="https://lattes.cnpq.br/4100286494002011"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0005-7098-3668"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Estudante 5 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/Lucas.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Lucas"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">Lucas Abreu Silveira</h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduando em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Cibersegurança, Ciência de
+                      Dados, Machine Learning</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/5306207208136265"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0004-6539-508X"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Estudante 6 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/Ronald.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Ronald"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">Ronald Carneiro Junior</h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduando em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Programação, Ciência de
+                      Dados</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/4219356624632986"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0005-6260-7195"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Estudante 7 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/daniel.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Daniel"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">Daniel Melo de Oliveira</h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduando em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Segurança da Informação,
+                      Computação Forense</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/9646512749923674"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0006-1833-4705"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Estudante 8 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/Helen.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Helen"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">
+                    Helen Enes da Silva Dessa
+                  </h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduando em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Redes de Computadores,
+                      Sistemas Operacionais, Cibersegurança</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/8603497168828565"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0009-8931-2310"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Estudante 9 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/richard.jpeg"
+                  class="card-img-top member-img-student"
+                  alt="Richard"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">Richard Rodrigues Abreu</h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduando em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Engenharia de Software,
+                      Backend, Infraestrutura</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/2150818512064711"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0001-2062-6540"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Estudante Tamplate -->
+            <!-- <div class="col-md-6 col-lg-3">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/batista.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Maria Clara"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">Maria Clara Batista</h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduando em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Ciências de Dados, Machine
+                      Learning</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/1329540588253645"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0008-3830-1710"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Egressos Section -->
+      <section class="py-5 bg-light">
+        <div class="container px-5">
+          <div class="text-center mb-5">
+            <h1 class="fw-bolder mb-3">Egressos</h1>
+          </div>
+
+          <div class="row g-4">
+            <!-- Egresso 1 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/ricardo.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Ricardo"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">Ricardo Morsoleto</h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduado em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Programação, Problem
+                      Solving</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/4331319177647655"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0005-4406-764X"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Egresso 2 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/julio.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Julio"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">
+                    Julio Cesar da Costa Silva
+                  </h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduado em Ciências da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Engenharia de Software,
+                      Backend</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="http://lattes.cnpq.br/2088595653369526"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0008-5278-478X"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Egresso 3 -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card member-card shadow-sm">
+                <img
+                  src="./assets/perfis/milner.jpg"
+                  class="card-img-top member-img-student"
+                  alt="Milnner"
+                />
+                <div class="card-body member-info-compact">
+                  <h6 class="card-title fw-bolder">
+                    Milnner Kauan Torres Andrade
+                  </h6>
+                  <p class="text-muted mb-1">
+                    <small>Graduado em Ciência da Computação</small>
+                  </p>
+                  <p class="text-muted mb-1">
+                    <small
+                      ><strong>Interesses:</strong> Análise Preditiva de Dados,
+                      Otimização</small
+                    >
+                  </p>
+                  <div class="mt-2">
+                    <a
+                      href="https://lattes.cnpq.br/3633024317437758"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary me-1"
+                      >Lattes</a
+                    >
+                    <a
+                      href="https://orcid.org/0009-0006-8547-7036"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Orcid</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer-->
-    <footer class="bg-dark py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy;Gopad 2025</div>
-                </div>
-                <div class="col-auto">
-                    <a class="link-light small" href="#!">Privacy</a>
-                    <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Terms</a>
-                    <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Contact</a>
-                </div>
-            </div>
+    <footer class="footer bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">Copyright &copy;Gopad 2026</div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Contact</a>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
